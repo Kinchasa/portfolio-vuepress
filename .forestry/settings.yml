@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: portfolio/index.md
-  label: Homepage
+  label: Home
   templates:
   - settings
 - type: directory
@@ -23,8 +23,6 @@ sections:
   match: "**/[!index]*"
   templates:
   - journal
-- type: heading
-  label: Data
 - type: document
   path: portfolio/config.json
   label: Site Config
