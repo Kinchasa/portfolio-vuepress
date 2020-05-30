@@ -13,5 +13,22 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: numbers
+  type: number
+  label: Numbers
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - portfolio/index.md
