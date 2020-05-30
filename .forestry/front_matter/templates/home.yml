@@ -30,5 +30,20 @@ fields:
     min: 
     max: 
     step: 
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Area
+- name: color_picker
+  type: color
+  label: Color Picker
+  config:
+    required: false
+    color_format: Hex
 pages:
 - portfolio/index.md
