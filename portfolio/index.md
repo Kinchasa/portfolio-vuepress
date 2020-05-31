@@ -16,4 +16,4 @@ color_picker: "#E02626"
 text_area: ''
 
 ---
-<Hero :text="$page.frontmatter.hero_text" /> <WorksList /
+<Hero :text="$page.frontmatter.hero_text" /> <WorksList />
